@@ -105,6 +105,10 @@ def main():
     subprocess.run(["git", "commit", "-m", msg], cwd=ROOT, check=True)
     subprocess.run(["git", "push"], cwd=ROOT, check=True)
     print("\nОпубліковано. На кожному пристрої: лаунчер → «Обновити репозиторії» → оновити моди.")
+    mac = ROOT.parent / "build_uk_repository.py"   # на Mac власні моди йдуть через спільний локальний файл
+    if mac.exists():
+        print("(GitHub оновлює raw-файли до ~5 хв; Mac-індекс оновлюю зараз)")
+        subprocess.run([sys.executable, str(mac)], cwd=mac.parent)
 
 
 if __name__ == "__main__":
