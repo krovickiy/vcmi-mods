@@ -17,14 +17,14 @@
 
 ## Одноразове підключення на кожному пристрої
 Лаунчер → Налаштування → «Додатковий репозиторій» → увімкнути й вставити:
-`https://raw.githubusercontent.com/<github_user>/vcmi-mods/main/vcmi-repo.json`
+`https://raw.githubusercontent.com/krovickiy/vcmi-mods/main/vcmi-repo.json`
 
 ## Оновлення самого лаунчера (власна збірка з меню читів)
 Моди — це дані, лаунчер — програма. Після змін коду збірку треба зробити для кожної платформи.
 - **Сповіщення в лаунчері:** VCMI при старті читає `updateConfigUrl` і, якщо версія новіша, показує вікно
   «Доступне оновлення» з посиланням для своєї платформи. Для цього власна збірка має мати свій номер
   версії (напр. «VCMI 1.7.5 Cheats r2») і `updateConfigUrl` →
-  `https://raw.githubusercontent.com/<github_user>/vcmi-mods/main/vcmi-updates.json`.
+  `https://raw.githubusercontent.com/krovickiy/vcmi-mods/main/vcmi-updates.json`.
   При кожному релізі: змінити `version`, додати попередню в `history`, оновити `changeLog`.
 - **Повністю автоматично на Android:** програма **Obtainium** (безкоштовна, з GitHub/F-Droid) стежить
   за GitHub Releases цього репозиторію і сама ставить новий APK.
