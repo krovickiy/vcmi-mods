@@ -1,0 +1,12 @@
+{
+	"updateType" : "minor",
+	"version" : "VCMI 1.7.5 Cheats r1",
+	"downloadLinks" : {
+		"android" : "https://github.com/GITHUB_USER/vcmi-mods/releases/latest",
+		"windows" : "https://github.com/GITHUB_USER/vcmi-mods/releases/latest",
+		"macos"   : "https://github.com/GITHUB_USER/vcmi-mods/releases/latest",
+		"other"   : "https://github.com/GITHUB_USER/vcmi-mods/releases/latest"
+	},
+	"changeLog" : "Перша власна збірка: меню читів, колонка «Укр.».",
+	"history" : [ ]
+}

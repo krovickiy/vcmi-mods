@@ -1,0 +1,12 @@
+{
+	"name" : "My new mod",
+	"description" : "Short English description",
+	"ukrainian" : {
+		"name" : "Мій новий мод",
+		"description" : "Опис українською."
+	},
+	"author" : "miron",
+	"version" : "1.0.0",
+	"modType" : "Mechanics",
+	"compatibility" : { "min" : "1.7.0" }
+}
