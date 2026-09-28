@@ -1,0 +1,15 @@
+{
+	"name" : "Fused Artifacts (WoG): Ukrainian texts",
+	"description" : "Ukrainian texts for artifacts changed by Fused Artifacts for In the Wake of Gods",
+	"ukrainian" : {
+		"name" : "Злиті артефакти (WoG): український текст",
+		"description" : "Перекладає Щит Вельзевула, текст якого змінює мод «Злиті артефакти». Вмикається лише разом із ним."
+	},
+	"author" : "miron",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+	"language" : "ukrainian",
+	"depends" : [ "fused-artifacts.fusedartifactswog" ],
+	"artifacts" : [ "config/fusedWoG" ],
+	"compatibility" : { "min" : "1.7.0" }
+}
