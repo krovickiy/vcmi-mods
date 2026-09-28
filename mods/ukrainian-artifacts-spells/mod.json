@@ -1,0 +1,17 @@
+{
+	"name" : "Ukrainian translation: artifacts and spells mods",
+	"description" : "Ukrainian in-game texts for Witchking artifacts, Moon Artifacts, Fused Artifacts and Adventure Map Spells",
+	"ukrainian" : {
+		"name" : "Український переклад артефактів і заклять",
+		"description" : "Перекладає українською всі ігрові тексти (назви, описи, повідомлення) модів:\n\n- **Артефакти Witchking** (разом із В'язницею душ);\n- **Місячні артефакти** — артефакти, істоти, закляття та Місячна скриня;\n- **Закляття мапи пригод** — усі 24 закляття на всіх рівнях;\n- **Злиті артефакти** — Щит Вельзевула (решта злитих артефактів бере назви з українізатора гри).\n\nПереклад підхоплюється лише для встановлених модів; зайвих залежностей немає."
+	},
+	"author" : "miron",
+	"version" : "1.0.0",
+	"modType" : "Translation",
+	"language" : "ukrainian",
+	"softDepends" : [ "witchking-artifacts", "moon-artifacts", "adventure-spells-pack", "fused-artifacts" ],
+	"translations" : [
+		"translation/ukrainian-artifacts-spells/ukrainian.json"
+	],
+	"compatibility" : { "min" : "1.7.0" }
+}
