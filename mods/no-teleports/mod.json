@@ -1,0 +1,17 @@
+{
+	"name" : "No teleports on random maps",
+	"description" : "Random map generator places no Monoliths and no Whirlpools. Zones are connected by land, water or Subterranean Gates only. Requires VCMI Cheats build (VCMI 1.7.5 Cheats); in official VCMI the mod has no effect.",
+	"ukrainian" : {
+		"name" : "Без телепортів на випадкових картах",
+		"description" : "Генератор випадкових карт більше не ставить **жодних телепортів**: ні двосторонніх, ні односторонніх монолітів, ні вирів на воді.\n\nЗони з'єднуються лише звичайними проходами (з охороною), морем або підземними воротами між поверхами.\n\n- Портали, які шаблон задає між зонами, прибираються; якщо без порталу частина карти стала б недосяжною — замість нього робиться звичайний прохід.\n- Якщо якусь зону не вдалося з'єднати без телепорту, карта автоматично генерується наново (до 10 спроб).\n\nВмикається й вимикається в лаунчері, як звичайний мод. Діє лише на **нові** випадкові карти; готові карти й збереження не змінює.\n\n**Потрібна збірка «VCMI Cheats»** (Mac та Android). В офіційному VCMI мод нічого не робить."
+	},
+	"author" : "miron",
+	"version" : "1.0.0",
+	"modType" : "Mechanics",
+	"settings" : {
+		"randomMap" : {
+			"allowTeleports" : false
+		}
+	},
+	"compatibility" : { "min" : "1.7.5" }
+}

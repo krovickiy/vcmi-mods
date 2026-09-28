@@ -2,5 +2,9 @@
  "ukrainian-artifacts-spells": {
   "hash": "726dcc9e0d5f44c59b7c487de2997cf4e75b7acf",
   "version": "1.0.0"
+ },
+ "no-teleports": {
+  "hash": "53f32f69f696d8842a30570f952d0c586b0c2db1",
+  "version": "1.0.0"
  }
 }

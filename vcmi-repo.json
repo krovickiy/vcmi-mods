@@ -1,5 +1,11 @@
 {
  "availableMods": {
+  "no-teleports": {
+   "mod": "https://raw.githubusercontent.com/krovickiy/vcmi-mods/main/mods/no-teleports/mod.json",
+   "download": "https://raw.githubusercontent.com/krovickiy/vcmi-mods/main/dist/no-teleports.zip",
+   "downloadSize": 0.001,
+   "screenshots": []
+  },
   "ukrainian-artifacts-spells": {
    "mod": "https://raw.githubusercontent.com/krovickiy/vcmi-mods/main/mods/ukrainian-artifacts-spells/mod.json",
    "download": "https://raw.githubusercontent.com/krovickiy/vcmi-mods/main/dist/ukrainian-artifacts-spells.zip",
